@@ -10,7 +10,7 @@ import time
 print "never miss your train with train guru"
 #Create Way2sms Id 
 uname = "Way2Sms u name"
-pass = " Way2Sms Password"
+password = " Way2Sms Password"
 
 #enter mobile number in which you want to send text
 mnumber = "Enter Mobile Number"
@@ -46,7 +46,7 @@ def sendtext(message,number):
 
      #logging into the sms site
         url ='http://site24.way2sms.com/Login1.action?'
-        data = 'username='+uname+'&password='+pass+'&Submit=Sign+in'
+        data = 'username='+uname+'&password='+password+'&Submit=Sign+in'
 
      #For cookies
 
