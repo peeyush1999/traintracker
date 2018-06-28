@@ -8,14 +8,18 @@ import time
 #-----------------------fields which needs to be change--------------------
 
 print "never miss your train with train guru"
+#Create Way2sms Id 
+uname = "Way2Sms u name"
+pass = " Way2Sms Password"
+
 #enter mobile number in which you want to send text
-mnumber = "9012417005"
+mnumber = "Enter Mobile Number"
 
 #enter Train number for which you want text
-trainno ="14114"
+trainno ="Enter Train Number"
 
 #enter your destination name in capital letter with correct spelling
-destname = "HARIDWAR"
+destname = "Enter Destination Name"
 
 note ="HOPE YOU HAVE HAPPY AND SAFE JOURNEY!!!!"
 
@@ -42,7 +46,7 @@ def sendtext(message,number):
 
      #logging into the sms site
         url ='http://site24.way2sms.com/Login1.action?'
-        data = 'username='+"7417233836"+'&password='+"tarpit"+'&Submit=Sign+in'
+        data = 'username='+uname+'&password='+pass+'&Submit=Sign+in'
 
      #For cookies
 
